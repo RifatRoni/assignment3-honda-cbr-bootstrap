@@ -1,0 +1,92 @@
+/*------------------------------------------------
+                  Common CSS
+------------------------------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*------------------------------------------------
+                  Header Part CSS
+------------------------------------------------*/
+header{
+    background: #264653;
+}
+.color-orange{
+    color:#E76F51;
+}
+.btn-orange{
+    background-color:#E76F51;
+    color:white;
+}
+.banner-info{
+    color:#E0E0E0;
+}
+.navbar-light .navbar-toggler-icon{
+background-image: url("../images/menu-icon.svg");
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/*------------------------------------------------
+            Featured Bike Part CSS
+------------------------------------------------*/
+.custom-border-color{
+    border-top:2px solid#E76F51 !important;
+}
+.grayscale-featured-img {
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+/*------------------------------------------------
+                  Latest News Part CSS
+------------------------------------------------*/
+.news-button{
+    background-color:white;
+    border: 1px solid #E76F51;
+    color:#E76F51;
+}
+.news-button:hover{
+    background-color:#E76F51;
+    color:white;
+}
+
+
+/*------------------------------------------------
+                  FAQ Part CSS
+------------------------------------------------*/
+
+.accordion-question{
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+}
+.accordion-answer{
+    color: #7E848C;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*------------------------------------------------
+                  Write Us Part CSS
+------------------------------------------------*/
+.submit-button{
+    background-color:white;
+    border: 1px solid #E76F51;
+    color:#E76F51;
+}
+.submit-button:hover{
+    background-color:#E76F51;
+    color:white;
+}
+
+/*------------------------------------------------
+                  Footer Part CSS
+------------------------------------------------*/
+.footer-bg{
+    background: #0B0D17;
+}
+footer{
+    font-family: 'Manrope', sans-serif;
+}
